@@ -66,7 +66,7 @@ vcpkg install sdl2:x64-windows
 1. **Clone the repository:**
 ```bash
 cd ~/Developer
-git clone https://github.com/yourusername/llama_cpp_manager.git
+git clone https://github.com/takasurazeem/llama_cpp_manager.git
 cd llama_cpp_manager
 ```
 
@@ -401,8 +401,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- Issues: https://github.com/yourusername/llama_cpp_manager/issues
-- Discussions: https://github.com/yourusername/llama_cpp_manager/discussions
+- Issues: https://github.com/takasurazeem/llama_cpp_manager/issues
+- Discussions: https://github.com/takasurazeem/llama_cpp_manager/discussions
 - llama.cpp: https://github.com/ggerganov/llama.cpp
 
 ---

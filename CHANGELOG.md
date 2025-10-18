@@ -171,8 +171,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Links
 
-- **Repository**: https://github.com/yourusername/llama_cpp_manager
-- **Issues**: https://github.com/yourusername/llama_cpp_manager/issues
+- **Repository**: https://github.com/takasurazeem/llama_cpp_manager
+- **Issues**: https://github.com/takasurazeem/llama_cpp_manager/issues
 - **llama.cpp**: https://github.com/ggerganov/llama.cpp
 - **Dear ImGui**: https://github.com/ocornut/imgui
 

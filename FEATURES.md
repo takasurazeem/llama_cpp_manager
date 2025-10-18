@@ -339,7 +339,7 @@ Planned for future releases:
 ## 📞 Feedback & Support
 
 Found a bug? Have a feature request?
-- **GitHub Issues**: https://github.com/yourusername/llama_cpp_manager/issues
+- **GitHub Issues**: https://github.com/takasurazeem/llama_cpp_manager/issues
 - **Documentation**: See README.md, TROUBLESHOOTING.md
 - **Examples**: Check `examples/README.md`
 

@@ -1,0 +1,23 @@
+{
+  "_comment": "Maximum quality configuration",
+  "_recommended_models": "F16 or Q8_0 quantization for best quality",
+  "_notes": "Highest quality, highest VRAM usage",
+  
+  "context_length": 4096,
+  "gpu_layers": 48,
+  "batch_size": 1024,
+  "threads": 12,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": true,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": 42,
+  "last_model_path": "",
+  "remember_settings": true
+}

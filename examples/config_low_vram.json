@@ -1,0 +1,22 @@
+{
+  "_comment": "Low VRAM configuration for 4-6 GB GPUs",
+  "_recommended_models": "7B Q4_K_M or Q4_0",
+  
+  "context_length": 2048,
+  "gpu_layers": 20,
+  "batch_size": 256,
+  "threads": 8,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": false,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": false,
+  "quantize_k_cache": true,
+  "quantize_v_cache": true,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}

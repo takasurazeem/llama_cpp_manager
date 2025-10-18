@@ -1,0 +1,51 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDEs
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Configuration files (user-specific)
+config.json
+*.user
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies (if not using submodules)
+extern/imgui/
+vcpkg_installed/
+
+# Package managers
+vcpkg/
+conan/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig

@@ -1,0 +1,23 @@
+{
+  "_comment": "Mixtral/MoE model configuration",
+  "_recommended_models": "Mixtral 8x7B or similar MoE architectures",
+  "_notes": "Optimized for Mixture-of-Experts models",
+  
+  "context_length": 4096,
+  "gpu_layers": 33,
+  "batch_size": 512,
+  "threads": 10,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 8,
+  "force_experts_cpu": false,
+  "flash_attention": false,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}

@@ -1,0 +1,23 @@
+{
+  "_comment": "CPU-only configuration (no GPU)",
+  "_recommended_models": "Any quantized model",
+  "_notes": "All processing on CPU, slower but works without GPU",
+  
+  "context_length": 2048,
+  "gpu_layers": 0,
+  "batch_size": 256,
+  "threads": 16,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": false,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": false,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}

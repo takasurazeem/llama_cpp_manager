@@ -1,0 +1,22 @@
+{
+  "_comment": "High VRAM configuration for 16+ GB GPUs",
+  "_recommended_models": "30B Q4_K_M or 13B Q8_0",
+  
+  "context_length": 8192,
+  "gpu_layers": 48,
+  "batch_size": 1024,
+  "threads": 12,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": true,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}

@@ -1,0 +1,19 @@
+{
+  "context_length": 2048,
+  "gpu_layers": 32,
+  "batch_size": 512,
+  "threads": 8,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": false,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}

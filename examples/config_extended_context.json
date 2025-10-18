@@ -1,0 +1,23 @@
+{
+  "_comment": "Extended context configuration (requires significant VRAM)",
+  "_recommended_models": "Models with RoPE support, 7B-13B Q4",
+  "_notes": "Uses RoPE scaling for contexts beyond training length",
+  
+  "context_length": 16384,
+  "gpu_layers": 40,
+  "batch_size": 512,
+  "threads": 10,
+  "rope_freq_base": 10000.0,
+  "rope_freq_scale": 1.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": true,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}

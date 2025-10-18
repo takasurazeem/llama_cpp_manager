@@ -1,0 +1,11 @@
+{
+  "name": "llama-cpp-manager",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "sdl2",
+    {
+      "name": "opengl",
+      "platform": "!osx"
+    }
+  ]
+}

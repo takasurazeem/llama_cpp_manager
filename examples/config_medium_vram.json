@@ -1,0 +1,22 @@
+{
+  "_comment": "Medium VRAM configuration for 8-12 GB GPUs",
+  "_recommended_models": "13B Q4_K_M or 7B Q8_0",
+  
+  "context_length": 4096,
+  "gpu_layers": 35,
+  "batch_size": 512,
+  "threads": 10,
+  "rope_freq_base": 0.0,
+  "rope_freq_scale": 0.0,
+  "offload_kv_cache": true,
+  "use_mmap": true,
+  "keep_model_in_memory": true,
+  "num_experts": 0,
+  "force_experts_cpu": false,
+  "flash_attention": false,
+  "quantize_k_cache": false,
+  "quantize_v_cache": false,
+  "seed": -1,
+  "last_model_path": "",
+  "remember_settings": true
+}
